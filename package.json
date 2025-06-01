@@ -1,0 +1,57 @@
+{
+  "name": "docuthinker-fullstack-app",
+  "version": "1.1.0",
+  "description": "This is a fullstack application for DocuThinker",
+  "license": "MIT",
+  "author": "Son Nguyen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangsonww/DocuThinker-AI-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hoangsonww/DocuThinker-AI-App/issues"
+  },
+  "private": false,
+  "scripts": {
+    "start": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "test": "cd frontend && npm test",
+    "eject": "cd frontend && npm run eject",
+    "server": "nodemon backend/index.js",
+    "frontend": "cd frontend && npm start",
+    "backend": "nodemon backend/index.js",
+    "format": "prettier --write \"**/*.{js,ts,tsx,json,css,html}\""
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@google/generative-ai": "^0.21.0",
+    "@mui/material": "^5.0.0",
+    "axios": "^1.7.7",
+    "busboy": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "firebase": "^10.14.0",
+    "firebase-admin": "^12.6.0",
+    "formidable": "^3.5.1",
+    "googleapis": "^144.0.0",
+    "mammoth": "^1.8.0",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1",
+    "prettier": "^3.3.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-helmet": "^6.1.0",
+    "react-scripts": "^5.0.1",
+    "redis": "^4.7.0",
+    "sentiment": "^5.0.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "nodemon": "^3.1.7"
+  }
+}
