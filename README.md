@@ -1,27 +1,27 @@
-# **DocuThinker - AI-Powered Document Analysis and Summarization App**
+# **DOCVIEW: AI Document Analyzer**
 
-Welcome to **DocuThinker**! This is a full-stack **(FERN-Stack)** application that integrates an AI-powered document processing backend with a React-based frontend. The app allows users to upload documents for summarization, generate key insights, and chat with an AI based on the document's content.
+Welcome to **DocView**! This is a full-stack **(MERN-Stack)** application that integrates an AI-powered document processing backend with a React-based frontend. The app allows users to upload documents for summarization, generate key insights, and chat with an AI based on the document's content.
 
 <h2 id="-overview">📖 Overview</h2>
 
-The **DocuThinker** app is designed to provide users with a simple, AI-powered document management tool. Users can upload PDFs or Word documents and receive summaries, key insights, and discussion points. Additionally, users can chat with an AI using the document's content for further clarification.
+The **DocView** app is designed to provide users with a simple, AI-powered document management tool. Users can upload PDFs or Word documents and receive summaries, key insights, and discussion points. Additionally, users can chat with an AI using the document's content for further clarification.
 
-**DocuThinker** is created using the **FERN-Stack** architecture, which stands for **Firebase, Express, React, and Node.js**. The backend is built with Node.js and Express, integrating Firebase for user authentication and MongoDB for data storage. The frontend is built with React and Material-UI, providing a responsive and user-friendly interface.
+**DocView** is created using the **MERN-Stack** architecture, which stands for **Firebase, Express, React, and Node.js**. The backend is built with Node.js and Express, integrating Firebase for user authentication and MongoDB for data storage. The frontend is built with React and Material-UI, providing a responsive and user-friendly interface.
 
 > [!IMPORTANT]
-> It is currently deployed live on **Vercel** and **Render**. You can access the live app **[here](https://docuthinker-fullstack-app.vercel.app/)**.
+> It is currently deployed live on **Vercel** and **Render**. You can access the live app **[here](https://DocView-fullstack-app.vercel.app/)**.
 
 <h2 id="live-deployments">🚀 Live Deployments</h2>
 
 > [!TIP]
-> Access the live app at **[https://docuthinker.vercel.app/](https://docuthinker.vercel.app/) by clicking on the link or copying it into your browser! 🚀**
+> Access the live app at **[https://DocView.vercel.app/](https://DocView.vercel.app/) by clicking on the link or copying it into your browser! 🚀**
 
-We have deployed the entire app on **Vercel** and **Render**. You can access the live app **[here](https://docuthinker.vercel.app)**.
+We have deployed the entire app on **Vercel** and **Render**. You can access the live app **[here](https://DocView.vercel.app)**.
 
-- **Frontend**: Deployed on **Vercel**. Access the live frontend **[here](https://docuthinker.vercel.app/)**.
-  - **Backup Frontend**: We have a backup of the frontend on **Netlify**. You can access the backup app **[here](https://docuthinker-ai-app.netlify.app/)**.
-- **Backend**: Deployed on **Vercel**. You can access the live backend **[here](https://docuthinker-app-backend-api.vercel.app/)**.
-  - **Backup Backend API**: Deployed on **Render**. You can access the backup backend **[here](https://docuthinker-ai-app.onrender.com/)**.
+- **Frontend**: Deployed on **Vercel**. Access the live frontend **[here](https://DocView.vercel.app/)**.
+  - **Backup Frontend**: We have a backup of the frontend on **Netlify**. You can access the backup app **[here](https://DocView-ai-app.netlify.app/)**.
+- **Backend**: Deployed on **Vercel**. You can access the live backend **[here](https://DocView-app-backend-api.vercel.app/)**.
+  - **Backup Backend API**: Deployed on **Render**. You can access the backup backend **[here](https://DocView-ai-app.onrender.com/)**.
 
 > [!IMPORTANT]
 > The backend server may take a few seconds to wake up if it has been inactive for a while. The first API call may take a bit longer to respond. Subsequent calls should be faster as the server warms up.
@@ -31,7 +31,7 @@ We have deployed the entire app on **Vercel** and **Render**. You can access the
 
 <h2 id="features">✨ Features</h2>
 
-**DocuThinker** offers a wide range of features to help users manage and analyze their documents effectively. Here are some of the key features of the app:
+**DocView** offers a wide range of features to help users manage and analyze their documents effectively. Here are some of the key features of the app:
 
 - **Document Upload & Summarization**: Upload PDFs or Word documents for AI-generated summaries.
 - **Key Insights & Discussion Points**: Generate important ideas and topics for discussion from your documents.
@@ -142,8 +142,8 @@ Additionally, **basic fullstack development knowledge and AI/ML concepts** are r
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/hoangsonww/DocuThinker-AI-App.git
-   cd DocuThinker-AI-App/backend
+   git clone https://github.com/hoangsonww/DocView-AI-App.git
+   cd DocView-AI-App/backend
    ```
 
 2. **Navigate to the frontend directory**:
@@ -251,7 +251,7 @@ Additionally, **basic fullstack development knowledge and AI/ML concepts** are r
 
 - The backend can be deployed on platforms like **Heroku**, **Render**, or **Vercel**.
 
-- Currently, we are using **Render** to host the backend. You can access the live backend **[here](https://docuthinker-ai-app.onrender.com/)**.
+- Currently, we are using **Render** to host the backend. You can access the live backend **[here](https://DocView-ai-app.onrender.com/)**.
 
 ### **Important Note about Backend Deployment**
 
