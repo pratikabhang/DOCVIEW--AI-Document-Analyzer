@@ -1,6 +1,6 @@
-# DocuThinker Frontend
+# DocView Frontend
 
-Welcome to the **Frontend** of the **DocuThinker** application! This React-based frontend integrates with the DocuThinker backend, allowing users to upload documents, chat with an AI, and extract key insights from their documents. The frontend also provides various authentication functionalities such as registration, login, and password recovery.
+Welcome to the **Frontend** of the **DocView** application! This React-based frontend integrates with the DocView backend, allowing users to upload documents, chat with an AI, and extract key insights from their documents. The frontend also provides various authentication functionalities such as registration, login, and password recovery.
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ Welcome to the **Frontend** of the **DocuThinker** application! This React-based
 
 ## Overview
 
-The **DocuThinker Frontend** is built using **React** and **Material-UI** to create a clean and responsive interface. It allows users to:
+The **DocView Frontend** is built using **React** and **Material-UI** to create a clean and responsive interface. It allows users to:
 
 - Upload documents (PDF or Word) for AI-based summarization and key insights generation.
 - Register, log in, and reset their passwords.
@@ -138,10 +138,10 @@ The frontend consists of several pages and components that make up the user inte
 
 ## File Structure
 
-Here is the complete file structure for the **DocuThinker Frontend**. The frontend is located under `DocuThinker-AI-App/frontend`:
+Here is the complete file structure for the **DocView Frontend**. The frontend is located under `DocView-AI-App/frontend`:
 
 ```
-DocuThinker-AI-App/
+DocView-AI-App/
 ├── frontend/
 │   ├── public/
 │   │   ├── index.html                # Main HTML template
@@ -198,8 +198,8 @@ To get started, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/hoangsonww/DocuThinker-AI-App.git
-   cd DocuThinker-AI-App/frontend
+   git clone https://github.com/hoangsonww/DocView-AI-App.git
+   cd DocView-AI-App/frontend
    ```
 
 2. **Install dependencies**:
@@ -273,7 +273,7 @@ Here are the most important scripts available in the `package.json`:
 
 ## Screenshots
 
-Here are some screenshots of the **DocuThinker Frontend**:
+Here are some screenshots of the **DocView Frontend**:
 
 ### Landing Page
 

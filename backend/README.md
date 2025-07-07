@@ -1,22 +1,30 @@
-# DocuThinker Backend Documentation
+# DocView Backend Documentation
 
-The **DocuThinker Backend** is the server-side component of the DocuThinker application that handles user registration, login, document processing, AI interactions, and email verification. This backend is built using Node.js, Express, Firebase for authentication, and Google Generative AI for document summarization and key ideas generation. The backend also uses Swagger for API documentation.
+The **DocView Backend** is the server-side component of the DocView application that handles user registration, login, document processing, AI interactions, and email verification. This backend is built using Node.js, Express, Firebase for authentication, and Google Generative AI for document summarization and key ideas generation. The backend also uses Swagger for API documentation.
 
-The backend is currently hosted on Render and can be accessed at [https://docuthinker-ai-app.onrender.com](https://docuthinker-ai-app.onrender.com).
+The backend is currently hosted on Render and can be accessed at [https://DocView-ai-app.onrender.com](https://DocView-ai-app.onrender.com).
 
 ## Table of Contents
 
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Environment Variables](#environment-variables)
-- [Running the Server](#running-the-server)
-- [File Structure](#file-structure)
-- [API Documentation](#api-documentation)
-- [API Endpoints](#api-endpoints)
-- [Testing the API](#testing-the-api)
-- [Swagger](#swagger)
-- [Error Handling](#error-handling)
+- [DocView Backend Documentation](#docview-backend-documentation)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Environment Variables](#environment-variables)
+  - [Running the Server](#running-the-server)
+  - [File Structure](#file-structure)
+  - [API Documentation](#api-documentation)
+  - [API Endpoints](#api-endpoints)
+    - [Authentication](#authentication)
+    - [Testing the API](#testing-the-api)
+      - [Example Request to Register a User:](#example-request-to-register-a-user)
+      - [Example Request to Upload a Document:](#example-request-to-upload-a-document)
+  - [Swagger](#swagger)
+    - [Authorization](#authorization)
+  - [Error Handling](#error-handling)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Features
 
@@ -42,8 +50,8 @@ Ensure you have the following installed on your machine:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/hoangsonww/DocuThinker-AI-App.git
-   cd DocuThinker-AI-App/backend
+   git clone https://github.com/hoangsonww/DocView-AI-App.git
+   cd DocView-AI-App/backend
    ```
 
 2. **Install dependencies**:
@@ -96,11 +104,11 @@ Make sure to replace these values with your Firebase and Google Generative AI cr
 
 ## File Structure
 
-The backend of **DocuThinker** is structured in a modular way to keep the codebase clean and organized. It follows the **MVC (Model-View-Controller)** pattern for better separation of concerns.
+The backend of **DocView** is structured in a modular way to keep the codebase clean and organized. It follows the **MVC (Model-View-Controller)** pattern for better separation of concerns.
 Here’s a breakdown of the file structure:
 
 ```
-DocuThinker-AI-App/
+DocView-AI-App/
 ├── backend/
 │   ├── controllers.js        # Controls the flow of data and logic
 │   ├── models.js             # Represents the data, logic, and rules of the application
@@ -129,7 +137,7 @@ Here you’ll find all the available routes, their request formats, and response
 
 ## API Endpoints
 
-The backend of **DocuThinker** provides the following API endpoints:
+The backend of **DocView** provides the following API endpoints:
 
 | **Method** | **Endpoint**                         | **Description**                                                                                     |
 | ---------- | ------------------------------------ | --------------------------------------------------------------------------------------------------- |
@@ -187,7 +195,7 @@ curl --location --request POST 'http://localhost:3000/upload' \
 
 ## Swagger
 
-The backend of DocuThinker comes with self-documenting APIs using **Swagger**.
+The backend of DocView comes with self-documenting APIs using **Swagger**.
 
 - You can interact with the APIs at `http://localhost:3000/api-docs`.
 - This Swagger documentation is automatically generated from the JSDoc comments in `index.js` and `controllers.js`.

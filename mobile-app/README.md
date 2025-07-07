@@ -1,18 +1,24 @@
-# Welcome to DocuThinker Mobile - A React Native, Expo App 👋
+# Welcome to DocView Mobile - A React Native, Expo App 👋
 
-The DocuThinker Mobile app is a React Native app built with Expo. It's a mobile app that helps you manage your documents and notes on the go.
+The DocView Mobile app is a React Native app built with Expo. It's a mobile app that helps you manage your documents and notes on the go.
 
 ## Table of contents
 
-- [Features](#features)
-- [Technologies](#technologies)
-- [User Interface](#user-interface)
-- [Get Started](#get-started)
-- [Get a fresh project](#get-a-fresh-project)
-- [Future Plans](#future-plans)
-- [Learn more](#learn-more)
-- [Contributing](#contributing)
-- [License](#license)
+- [Welcome to DocView Mobile - A React Native, Expo App 👋](#welcome-to-docview-mobile---a-react-native-expo-app-)
+  - [Table of contents](#table-of-contents)
+  - [Features](#features)
+  - [Technologies](#technologies)
+  - [User Interface](#user-interface)
+    - [Landing Page](#landing-page)
+    - [Navigation Drawer](#navigation-drawer)
+    - [Document List](#document-list)
+    - [How to Use Page](#how-to-use-page)
+  - [Get Started](#get-started)
+  - [Get a Fresh Project](#get-a-fresh-project)
+  - [Future Plans](#future-plans)
+  - [Learn More](#learn-more)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Features
 
@@ -44,25 +50,25 @@ The app uses the [Material Design](https://material.io/design) system for its us
 ### Landing Page
 
 <p align="center">
-  <img src="../images/responsive.png" alt="DocuThinker Mobile" width="50%" style="border-radius: 10px;">
+  <img src="../images/responsive.png" alt="DocView Mobile" width="50%" style="border-radius: 10px;">
 </p>
 
 ### Navigation Drawer
 
 <p align="center">
-  <img src="../images/navigation-drawer.png" alt="DocuThinker Mobile" width="50%" style="border-radius: 10px;">
+  <img src="../images/navigation-drawer.png" alt="DocView Mobile" width="50%" style="border-radius: 10px;">
 </p>
 
 ### Document List
 
 <p align="center">
-  <img src="../images/documents-mobile.png" alt="DocuThinker Mobile" width="50%" style="border-radius: 10px;">
+  <img src="../images/documents-mobile.png" alt="DocView Mobile" width="50%" style="border-radius: 10px;">
 </p>
 
 ### How to Use Page
 
 <p align="center">
-  <img src="../images/how-to-use-mobile.png" alt="DocuThinker Mobile" width="50%" style="border-radius: 10px;">
+  <img src="../images/how-to-use-mobile.png" alt="DocView Mobile" width="50%" style="border-radius: 10px;">
 </p>
 
 ## Get Started
@@ -117,8 +123,8 @@ Contributions are welcome! Here's how you can help:
 1. Clone the repository:
    ```bash
    # Clone the repository
-   git clone git clone https://github.com/hoangsonww/DocuThinker-AI-App.git
-   cd DocuThinker-AI-App/mobile-app
+   git clone git clone https://github.com/hoangsonww/DocView-AI-App.git
+   cd DocView-AI-App/mobile-app
    ```
 2. Create a new branch:
    ```bash
