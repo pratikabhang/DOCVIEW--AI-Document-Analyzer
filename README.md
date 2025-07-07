@@ -264,3 +264,4 @@ Additionally, **basic fullstack development knowledge and AI/ML concepts** are r
 >
 > - Additionally, during high traffic periods, the server may take longer to respond, although we have employed [NGINX](#load-balancing) for load balancing and caching.
 
+### ⭐ If you like this project, please consider giving it a star on [GitHub](https://github.com/pratikabhang/CREDBUD--The-Student-Platform)! It helps a lot! ⭐
